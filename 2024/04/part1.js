@@ -8,8 +8,8 @@ function searchGrid(grid, row, col, move) {
 	const moveX = move[0];
 	const moveY = move[1];
 	const wordLength = word.length;
-	let maxRow = grid.length;
-	let maxCol = grid[0].length;
+	const maxRow = grid.length;
+	const maxCol = grid[0].length;
 
 	let currentX = row + moveX;
 	let currentY = col + moveY;
@@ -33,8 +33,8 @@ function searchGrid(grid, row, col, move) {
 function searchWord(grid) {
 	const moveX = [-1, -1, 0, 1, 1, 1, 0, -1];
 	const moveY = [0, 1, 1, 1, 0, -1, -1, -1];
-	let maxRow = grid.length;
-	let maxCol = grid[0].length;
+	const maxRow = grid.length;
+	const maxCol = grid[0].length;
 	let answer = [];
 
 	for (let row = 0; row < maxRow; row++) {
