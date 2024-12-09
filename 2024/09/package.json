@@ -1,0 +1,14 @@
+{
+	"name": "09",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"part1": "node part1.js",
+		"part2": "node part2.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}
+
